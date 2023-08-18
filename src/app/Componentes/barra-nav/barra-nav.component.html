@@ -1,0 +1,519 @@
+<header #navbar>
+    <nav>
+        <div class="container-nav">
+            <div class="container-menu-sup">
+                <ul>
+                    <li>Showroom</li>
+                    <li>Contactanos</li>
+                    <li>Blog</li>
+                    <li>Punto de venta</li>
+                </ul>
+            </div>
+            <div class="nav">
+                <div class="logo">
+                    <picture>
+                        <img src="https://www.auteco.com.co/wp-content/uploads/2020/02/LOGOWEB-417x.png" alt="logo">
+                    </picture>
+                </div>
+                <ul class="container-nav-elements">
+                  <li class="cat" id="tvs">TVS
+                    <div class="container-categorias">
+                      <div class="bloque-categorias">
+                        <div class="Categorias">
+                          <div>
+                            <ul class="tvs elementos">
+                              <li #titulo_trabajo id="title" class="tipo_moto" (mouseenter)="onMouseEnterTrabajo()" (mouseleave)="onMouseLeaveTrabajo()">TRABAJO Y TRANSPORTE</li>
+                              <li #titulo_deportiva id="title" class="tipo_moto" (mouseenter)="onMouseEnterDeportivas()" (mouseleave)="onMouseLeaveDeportivas()">DEPORTIVAS</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterScooter()" (mouseleave)="onMouseLeaveScooter()">SCOOTER</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterMotocarro()" (mouseleave)="onMouseLeaveMotocarro()">MOTO CARRO</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterSemiautomaticas()" (mouseleave)="onMouseLeaveSemiautomaticas()">SEMIAUTOMATICAS</li>
+                            </ul>
+                          </div>
+                          <div class="vermas">
+                            <ul #trabajo id="trabajo" class="trabajo" (mouseenter)="onMouseEnterTitulo()" (mouseleave)="onMouseLeaveTitulo()">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/SPORT-ELS-ASPAS-AZUL-PETROLEO-1.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/01-1.png"></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/09/SPORT-KLS-RADIOS-NEGRO-GRIS-ROJO-1.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/09/01.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/06/auteco-3-CUARTOS-TVS-MAX.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/03/STRYKER-125-NEGRO-AZUL-1.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #deportivas id="deportivas" class="trabajo"(mouseenter)="onMouseEnterTituloDeportivas()" (mouseleave)="onMouseLeaveTituloDeportivas()">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/001-1.png" alt=""></picture>
+                                <span>APACHE RTR 160 4V FI ABS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/apache-rtr-160-4v-golden-green.png" alt=""></picture>
+                                <span>APACHE RTR 160 4V GOLDEN GREEN</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/tvs-raider-125-special-edition-1.png" alt=""></picture>
+                                <span>TVS RAIDER SPECIAL EDITION</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/002.png" alt=""></picture>
+                                <span>APACHE RTR 200 4V SPECIAL EDITION RACING</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/01-4.png" alt=""></picture>
+                                <span>TVS RAIDER 125</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/APACHE-RTR-200-FI-NEGRO-DORADO-1-1.png" alt=""></picture>
+                                <span>APACHE 200 4V FI ABS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/01/TVS_APACHE_180_2V_GRIS_CARBONO_001.png" alt=""></picture>
+                                <span>APACHE RTR 180 2V</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/01/01-2-1.png" alt=""></picture>
+                                <span>APACHE RTR 160 2V</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #scooter id="scooter" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/Foto_360_tvs_dazz_2022_2.png" alt=""></picture>
+                                <span>TVS DAZZ 110</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/NTORQ-RT-FI-NEGRO-MATE-AZUL-MATE-1.webp" alt=""></picture>
+                                <span>NTORQ FI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/NTORQ-125-GRIS-CARBONO-1.webp" alt=""></picture>
+                                <span>TVS NTORQ 125</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/NTORQ-RE-AZUL-PETROLEO-DORADO-1.png" alt=""></picture>
+                                <span>TVS NTORQ 125 RACE EDITION</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #motocarro id="motocarro" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/08/Foto_360_tvs_king_2022_3-1.png" alt=""></picture>
+                                <span>TVS King GS+ Full</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/08/Foto_360_tvs_king_2022_3.png" alt=""></picture>
+                                <span>TVS King GS+ Especial</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/06/imagendestacada.png" alt=""></picture>
+                                <span>TVS King GS+</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #semiautomaticas id="semiautomaticas" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/NEONX-TOP-FROST-DORADO-1.webp" alt=""></picture>
+                                <span>Neo NX 110</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cat" id="ktm">KTM
+                    <div class="container-categorias">
+                      <div class="bloque-categorias">
+                        <div class="Categorias">
+                          <div>
+                            <ul class="ktm elementos">
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterNaked()" (mouseleave)="onMouseLeaveNaked()">NAKED</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterTravel()" (mouseleave)="onMouseLeaveTravel()">TRAVEL</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterEnduro()" (mouseleave)="onMouseLeaveEnduro()">ENDURO</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterMotocross()" (mouseleave)="onMouseLeaveMotocross()">MOTOCROSS</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterSupersport()" (mouseleave)="onMouseLeaveSupersport()">SUPERSPORT</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterSupermoto()" (mouseleave)="onMouseLeaveSupermoto()">SUPERMOTO</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterEride()" (mouseleave)="onMouseLeaveEride()">E-RIDE</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #naked id="naked" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/360_1290_SUPER_DUKE_R_NARANJA_2.png" alt=""></picture>
+                                <span>1290 SUPER DUKE R EVO</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/360_1290_SUPER_DUKE_R_NARANJA_2.png"></picture>
+                                <span>1290 SUPER DUKE R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/07/360_890_DUKE_GP_2.png" alt=""></picture>
+                                <span>890 DUKE GP</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/11/foto_360_ktm_200_DUKE_NG_2021_BLANCA_2.png" alt=""></picture>
+                                <span>200 DUKE NG</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/04/Foto_360_KTM_890_Duke_Black_2021_06.png" alt=""></picture>
+                                <span>890 DUKE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/03/390-duke-ng-blanca-2.png" alt=""></picture>
+                                <span>390 DUKE NG</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/04/360_890_DUKE_R_2.png" alt=""></picture>
+                                <span>890 DUKE R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/360_200_DUKE_L_2-2.png" alt=""></picture>
+                                <span>TVS SPORT 100 ELS</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #travel id="travel" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/04/Foto_360_KTM_890_R-Adventure_2021_06.png" alt=""></picture>
+                                <span>890 ADVENTURE R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/07/360_890_ADV_2-1.png" alt=""></picture>
+                                <span>890 ADVENTURE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/07/370548_MY21-KTM-1290-SUPER-ADVENTURE-R-Front-Right-OT-spec_MY21.png" alt=""></picture>
+                                <span>1290 SUPER ADVENTURE R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/07/360_1290_SUP_ADV_S_2.png" alt=""></picture>
+                                <span>1290 SUPER ADVENTURE S</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/06/360_690_enduro_R_2.png" alt=""></picture>
+                                <span>690 ENDURO R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/04/360_890_ADV_R_2-1.png" alt=""></picture>
+                                <span>890 ADVENTURE R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/02/417286_KTM-Adventure-250-MY22-ORANGE-Front-Right_MY22.png" alt=""></picture>
+                                <span>250 ADVENTURE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/10/foto_360_ktm_390_advt_2021_negra_2.png" alt=""></picture>
+                                <span>390 ADVENTURE</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #enduro id="enduro" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_250_EXC_F_SIX_2.png" alt=""></picture>
+                                <span>250 EXC-F  SIX DAYS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_450_EXC_F_2.png" alt=""></picture>
+                                <span>450 EXC-F</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_250_EXC_TPI_2.png" alt=""></picture>
+                                <span>250 EXC TPI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_300_EXC_TPI_SIX_DAYS_2.png" alt=""></picture>
+                                <span>300 EXC TPI SIX DAYS</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_250_EXC_F_2.png" alt=""></picture>
+                                <span>250 EXC F</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_250_EXC_TPI_SIX_DAYS_2.png" alt=""></picture>
+                                <span>250 EXC SIX DAYS TPI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_300_EXC_TPI_2.png" alt=""></picture>
+                                <span>300 EXC TPI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_350_EXC_F_2.png" alt=""></picture>
+                                <span>350 EXC-F</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #motocross id="motocross" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_50_SX_1.png" alt=""></picture>
+                                <span>50 SX</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_250_SX_F_1.png" alt=""></picture>
+                                <span>250 SX-F</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/360_125_SX_1.png" alt=""></picture>
+                                <span>125 SX</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/12/360_450_SX_F_1.png" alt=""></picture>
+                                <span>450 SX-F</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_50_SX_MINI_1.png" alt=""></picture>
+                                <span>50 SX MINI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_65_SX_1.png" alt=""></picture>
+                                <span>65 SX</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/11/360_50_SX_FACTORY_1.png" alt=""></picture>
+                                <span>50 SX FACTORY EDITION</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/11/360_350_SX_F_1.png" alt=""></picture>
+                                <span>350 SX – F</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #supersport id="supersport" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/07/RC_390_NG_2022_BLUE_360_2.png " alt=""></picture>
+                                <span>RC 390</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/04/RC_200_NG_2022_BLANCA_360_2.png" alt=""></picture>
+                                <span>RC 200</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #supermoto id="supermoto" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/12/KTM_450_SMR_2.png " alt=""></picture>
+                                <span>450 SMR</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/04/360_690_smc_2.png" alt=""></picture>
+                                <span>690 SMC R</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/12/KTM_450_SMR_2.png" alt=""></picture>
+                                <span>450 SMR</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #eride id="eride" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/11/PHO_BIKE_90_RE_stacyc-12-21-90re_SALL_AEPI_V1.jpg" alt=""></picture>
+                                <span>KTM REPLICA 16EDRIVE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/11/PHO_BIKE_90_RE_stacyc-12-21-90re_SALL_AEPI_V1.jpg" alt=""></picture>
+                                <span>KTM REPLICA 12EDRIVE</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cat" id="hus">HUSVARNA
+                    <div class="container-categorias">
+                      <div class="bloque-categorias">
+                        <div class="Categorias">
+                          <div>
+                            <ul class="hus elementos">
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusMotocross()" (mouseleave)="onMouseLeaveHusMotocross()">MOTOCROSS</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusEnduro()" (mouseleave)="onMouseLeaveHusEnduro()">ENDURO</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusTravel()" (mouseleave)="onMouseLeaveHusTravel()">TRAVEL</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusSupermoto()" (mouseleave)="onMouseLeaveHusSupermoto()">SUPERMOTO</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusSvartpilen()" (mouseleave)="onMouseLeaveHusSvartpilen()">SVARTPILEN</li>
+                              <li id="title" class="tipo_moto" (mouseenter)="onMouseEnterHusElectricBikes()" (mouseleave)="onMouseLeaveHusElectricBikes()">ELECTRIC BIKES</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husMotocross id="husMotocross" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_TC85_2.png" alt=""></picture>
+                                <span>TC 85 17/14</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_TC65_2.png"></picture>
+                                <span>TC 65</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_TC50_MINI_2.png" alt=""></picture>
+                                <span>TC 50 MINI</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_TC85_2.png" alt=""></picture>
+                                <span>TC 85 19/16</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_TC50_2.png" alt=""></picture>
+                                <span>TC 50</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_FC450_2.png" alt=""></picture>
+                                <span>FC 450</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/09/360_FC250_2.png" alt=""></picture>
+                                <span>FC 250</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2020/03/360_FC350_2.png" alt=""></picture>
+                                <span>FC 350</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husEnduro id="husEnduro" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/360_TE150_HERITAGE_2.webp" alt=""></picture>
+                                <span>TE 150i HERITAGE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/360_TE300_HERITAGE_2.webp" alt=""></picture>
+                                <span>TE 300i HERITAGE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/360_TC250_HERITAGE_2.png" alt=""></picture>
+                                <span>FE 250 HERITAGE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2023/03/360_FE450_HERITAGE_2.webp" alt=""></picture>
+                                <span>FE 450 HERITAGE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/09/360_TE300_2.png" alt=""></picture>
+                                <span>TE 300i</span>
+                              </li>
+                              <li>
+                                <picture style="z-index: 99;"><img src="https://www.auteco.com.co/wp-content/uploads/2022/09/360_FE350_2.png" alt=""></picture>
+                                <span>FE 350</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/01/FE350_Rockstar_2022_360_2.jpg" alt=""></picture>
+                                <span>FE 350 Rockstar</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/10/360_TX300_2.png" alt=""></picture>
+                                <span>TX 300i</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husTravel id="husTravel" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/05/360_701_ENDURO_2.png" alt=""></picture>
+                                <span>701 ENDURO</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/12/Norden_901.png" alt=""></picture>
+                                <span>NORDEN 901</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husSupermoto id="husSupermoto" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/09/360_FS450_2.png" alt=""></picture>
+                                <span>FS 450</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/02/360_701_SM_2.png" alt=""></picture>
+                                <span>701 SUPERMOTO</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husSvartpilen id="husSvartpilen" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/360_SVART_401_2.png" alt=""></picture>
+                                <span>SVARTPILEN 401</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2022/10/360_SVART_200_2.png" alt=""></picture>
+                                <span>SVARTPILEN 200</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul #husElectricBikes id="husElectricBikes" class="trabajo">
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/12/imagetext_2115047173-1-2.png" alt=""></picture>
+                                <span>HUSQVARNA REPLICA 16eDRIVE</span>
+                              </li>
+                              <li>
+                                <picture><img src="https://www.auteco.com.co/wp-content/uploads/2021/12/imagetext-2.png" alt=""></picture>
+                                <span>HUSQVARNA REPLICA 12eDRIVE</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="Ser">SERVICIO TECNICO
+                    <ul>
+                      <li>TÉCNICOS AUTECO</li>
+                    </ul>
+                  </li>
+                  <li class="Ser">CREDITO
+                    <ul>
+                      <li>SOLICITAR CRËDITO</li>
+                      <li>PROMOCIONES TVS</li>
+                      <li>PRMOCIONES KTM</li>
+                      <li>TARJETA AV VILLAS</li>
+                      <li>ALIADO AUTECO Y RAPI</li>
+                    </ul>
+                  </li>
+                  <li class="Ser">NOSOTROS
+                    <ul class="nosotros">
+                      <li>80 AÑOS DE HISTORIA</li>
+                      <li>QUIÉNES SOMOS</li>
+                      <li>EMPRESA</li>
+                      <li>PUNTO DE VENTA</li>
+                      <li>SALA DE PRENSA</li>
+                      <li style="white-space:normal;">CMAPAÑA DE SEGURIDAD MOTOS AUTECO</li>
+                      <li>AUTECO TVS</li>
+                      <li>AMBIENTAL</li>
+                    </ul>
+                  </li>
+                  <li class="Ser">TIENDA ONLINE</li>
+                </ul>
+                <div class="sub-logo">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+

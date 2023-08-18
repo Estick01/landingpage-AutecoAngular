@@ -1,0 +1,73 @@
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start ;
+    padding: 30px;
+    padding-top: 50px;
+    gap: 50px;
+}
+.bloque p{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+}
+.atencion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 200;
+    gap: 20px;
+}
+.linea p{
+    font-size: 15px;
+}
+.linea i{
+    color: white;
+}
+.linea i::before{
+    font-size: 40px;
+}
+.linea img{
+    width: 200px ;
+}
+.linea .icon::before{
+    font-size: 25px;
+}
+.icon{
+    justify-content: center;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p p{
+    white-space: nowrap;
+}
+.contenedro_derechos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 7);
+    color: #ffffff;
+}
+.contenedro_derechos p{
+    font-size: 10px;
+    padding: 10px;
+}

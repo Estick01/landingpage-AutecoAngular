@@ -1,0 +1,211 @@
+.slider {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    z-index: -10;
+    padding-top: 109px;
+}
+.slider-contenedor {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animacion;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+    0% {
+        background-image: url(https://www.auteco.com.co/wp-content/uploads/2023/01/2-BANNER-MOTO-SUENO-2023.jpg);
+    }
+    33% {
+        background-image: url(https://www.auteco.com.co/wp-content/uploads/2021/08/Banner_interno_dt_aon_AutecoEsTVS.jpg);
+    }
+    66% {
+        background-image: url(https://www.auteco.com.co/wp-content/uploads/2022/01/BANNER-1.jpg);
+    }
+    100% {
+        background-image: url(https://www.auteco.com.co/wp-content/uploads/2023/03/BANNER-PRINCIPAL-1-1.jpg);
+    }
+    0% {
+        background-image: url(https://www.auteco.com.co/wp-content/uploads/2023/01/2-BANNER-MOTO-SUENO-2023.jpg);
+    }
+}
+.Banner-2023{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Banner-2023 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-2023 picture{
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.Banner-2023 img{
+    max-width: 100%;
+}
+.Baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.Baner h1{
+    margin-top: 0;
+}
+.Baner .contenedor-baner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    padding: 30px;
+}
+.line{
+    display: flex;
+    position: relative;
+}
+.baner-tvs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bloque-baner .efect:hover{
+    filter: saturate(0.7) brightness(0.7);
+}
+.bloque-baner .line::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: red;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: 0.1s;
+}
+.baner2 :nth-child(1).line::after{
+    background-color: rgb(255, 115, 0);
+}
+.baner2 :nth-child(2).line::after{
+    background-color: rgb(37, 0, 170);
+}
+.bloque-baner .line:hover::after{
+    opacity: 1;
+    height: 8px;
+}
+.bloque-baner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.baner-tvs img{
+    width:100%;
+}
+.conten-baner{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.fondo{
+    background-color: rgb(241, 241, 241);
+}
+.Baner .baner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 10px;
+    overflow: hidden;
+}
+.baner2 a{
+    width: calc(100%/2);
+    overflow: hidden;
+}
+.bloque-baner a img{
+    display: flex;
+    width: 100%;
+}
+.conten-baner2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conten-baner2>div{
+    width: 100%;
+}
+.gap-baner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.baner3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.baner3 img{
+    display: flex;
+    max-height: 338px;
+    min-height: 100%;
+}
+.localizar{
+    width: 100%;
+}
+.localizar a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.localizar img{
+    width: 100%;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    justify-content: center;
+    align-items: center;
+}
+.redes p{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+.iconos i{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.iconos i::before{
+    font-size: 40px;
+}
+.baner3 .line::after{
+    background-color: rgb(46, 46, 46);
+}
